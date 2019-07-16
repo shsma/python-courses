@@ -1,5 +1,8 @@
 my_list = [0, 1, 2, 3, 4]
 an_equal_list = [x for x in range(5)]
+an_doubled_list = [x * 2 for x in range(5)] # will mutliply by 2 and insert
+
+print(an_doubled_list)
 
 for my_number in range(10):
     print(my_number)
