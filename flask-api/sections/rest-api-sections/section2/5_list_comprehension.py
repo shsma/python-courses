@@ -16,8 +16,8 @@ for my_number in range(10):
 5 % 2
 8 % 3
 
-[n for n in range(10) if n % 2 == 0]
+print([n for n in range(10) if n % 2 == 0])
 
-names_list = ["John", "Rolf", "Anne"]
-lowercase_names = [name.lower() for name in names_list]
+names_list = [" John", "Rolf", "ANNA"]
+lowercase_names = [name.lower().strip() for name in names_list]
 print(lowercase_names)
