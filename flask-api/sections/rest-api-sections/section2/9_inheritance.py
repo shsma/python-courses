@@ -5,7 +5,7 @@ class Student:
         self.marks = []
 
     def average(self):
-        return sum(marks) / len(marks)
+        return sum(self.marks) / len(self.marks)
 
     def friend(self, friend_name):
         return Student(friend_name, self.school)
