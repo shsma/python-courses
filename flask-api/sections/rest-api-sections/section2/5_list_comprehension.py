@@ -7,7 +7,7 @@ print(an_doubled_list)
 for my_number in range(10):
     print(my_number)
 
-[my_number for my_number in range(10)]
+[my_number for my_number in range(10)] # list comprehension 
 
 [my_number * 2 for my_number in range(10)]
 
@@ -19,5 +19,5 @@ for my_number in range(10):
 print([n for n in range(10) if n % 2 == 0])
 
 names_list = [" John", "Rolf", "ANNA"]
-lowercase_names = [name.lower().strip() for name in names_list]
+lowercase_names = [name.lower().strip() for name in names_list] # list comprehension
 print(lowercase_names)

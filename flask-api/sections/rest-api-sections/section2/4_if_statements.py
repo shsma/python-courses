@@ -22,7 +22,9 @@ def who_do_you_know():
 
     people_without_spaces = []
     for person in names_list:
-        people_without_spaces.append(person.strip())
+        people_without_spaces.append(person.strip()) 
+        # we have could use list comprehension  
+        # people_without_spaces = [person.strip() for person in names_list]
         
     return people_without_spaces
 
