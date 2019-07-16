@@ -19,7 +19,10 @@ if user_name in my_known_people:
 def who_do_you_know():
     names = input("Enter the names of people you know, separated by commas: ")
     names_list = names.split(",")
-    return names_list
+    people_without_spaces = []
+    for person in names_list:
+        people_without_spaces.append(person.strip())
+    return people_without_spaces
 
 def ask_user():
     # Ask user for their name
