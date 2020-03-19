@@ -1,7 +1,7 @@
 # Python courses
 
-Questions and Improvements
+## Questions and Improvements
 For any question or emprovement please send an e-mail to Shady Smaoui shady@veloxsolutions.ca.
 
-License
+## License
 ShadySmaoui©2020 licensed under the MIT license.
